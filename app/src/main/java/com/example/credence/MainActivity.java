@@ -23,18 +23,19 @@ public class MainActivity extends AppCompatActivity {
         BUTTONLOGIN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Opening Login Page", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity.this, MainActivity2_1.class);
                 startActivity(intent);
             }
         });
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main1), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
     public void openActivity(View v){
-        Toast.makeText(this, "Opening SIGNUP page", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Opening Signup Page", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
     }

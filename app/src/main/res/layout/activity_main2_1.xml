@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/main2_1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/purplenew_background"
@@ -83,7 +83,7 @@
                     android:textColor="@color/white" />
 
                 <EditText
-                    android:id="@+id/editTextText2"
+                    android:id="@+id/inputemail2"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginStart="32dp"
@@ -109,7 +109,7 @@
                     android:textColor="@color/white" />
 
                 <EditText
-                    android:id="@+id/editTextText2"
+                    android:id="@+id/inputpassword2"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginStart="32dp"
@@ -154,6 +154,7 @@
                         android:layout_marginEnd="20dp"
                         android:layout_marginBottom="1dp"
                         android:background="@drawable/common_google_signin_btn_text_dark_normal"
+                        android:clickable="true"
                         android:shadowColor="#000000"
                         android:shadowDx="2.0"
                         android:shadowDy="1.8"
@@ -165,13 +166,16 @@
 
                 </LinearLayout>
 
-                <TextView
+                <Button
                     android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="1dp"
+
+                    android:background="@android:drawable/divider_horizontal_dim_dark"
                     android:text="Forgot Password?"
                     android:textAlignment="center"
+                    android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -185,6 +189,7 @@
                     android:layout_marginEnd="32dp"
                     android:layout_marginBottom="16dp"
                     android:background="@drawable/bluenew_background"
+                    android:clickable="true"
                     android:shadowColor="#000000"
                     android:shadowDx="2.0"
                     android:shadowDy="1.8"
@@ -193,13 +198,28 @@
                     android:textColor="#ffffff"
                     android:textSize="20sp" />
 
+                <Button
+                    android:id="@+id/Signup3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@android:drawable/divider_horizontal_dim_dark"
+                    android:clickable="true"
+                    android:text="                                           Signup Now!"
+                    android:textAlignment="center"
+                    android:textColor="#0000FF"
+                    android:textSize="15sp" />
+
+
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="-35dp"
                     android:layout_marginBottom="32dp"
-                    android:text="Don't have an account? Signup now!"
-                    android:textAlignment="center"
+                    android:text="Don't have an account?"
+
                     android:textColor="#000000"
                     android:textSize="15sp" />
             </LinearLayout>
