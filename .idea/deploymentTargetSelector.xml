@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="CREDENCE">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-09-12T20:20:01.984208100Z">
+        <DropdownSelection timestamp="2024-09-14T19:16:39.689564400Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=X8CUU4AI5THUCIKF" />
