@@ -183,7 +183,7 @@
                         android:layout_height="50dp"
                         android:layout_marginStart="32dp"
                         android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginBottom="5dp"
                         android:background="@drawable/whitenew_background"
                         android:ems="10"
                         android:hint="Enter Here"
@@ -193,11 +193,15 @@
                         android:textColorHint="#808080"
                         android:textSize="16dp" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="16dp"
-                        android:orientation="horizontal" />
+
+
+                    <ProgressBar
+                        android:id="@+id/progress1"
+                        android:visibility=""
+                        android:layout_marginStart="157dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
                     <Button
                         android:id="@+id/Signup1"
@@ -205,7 +209,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="32dp"
-                        android:layout_marginTop="1dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginEnd="32dp"
                         android:layout_marginBottom="16dp"
                         android:background="@drawable/bluenew_background"
