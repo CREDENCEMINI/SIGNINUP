@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/purplenew_background"
     android:visibility="visible"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity3_may">
 
     <ImageView
         android:id="@+id/imageView9"
@@ -22,7 +22,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="27dp"
         android:layout_marginTop="210dp"
         android:text="CONGRATULATIONS!"
         android:textColor="#ffffff"
@@ -100,6 +100,26 @@
                     android:text="Your CREDENCE Account has been Successfully Created!"
                     android:textColor="@color/white"
                     />
+
+                <TextView
+                    android:id="@+id/naam"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:text="NAAM" />
+
+                <TextView
+                    android:id="@+id/mobile1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:text="NAAM" />
+                <TextView
+                    android:id="@+id/mail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:text="NAAM" />
 
 
 

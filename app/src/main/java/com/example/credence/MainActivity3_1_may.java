@@ -1,6 +1,5 @@
 package com.example.credence;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,24 +11,25 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity3 extends AppCompatActivity {
-    private Button B4;
+public class MainActivity3_1_may extends AppCompatActivity {
+    private Button B3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main3);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main3), (v, insets) -> {
+        setContentView(R.layout.activitymain3_1_may);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main3_1), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        B4=findViewById(R.id.Cont1);
-        B4.setOnClickListener(new View.OnClickListener() {
+        B3=findViewById(R.id.Cont2);
+        B3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(MainActivity3.this, MainActivity2_1.class);
+                Intent intent =new Intent(MainActivity3_1_may.this, MainGoal1_may.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

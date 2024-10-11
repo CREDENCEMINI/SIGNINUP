@@ -12,19 +12,29 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_may extends AppCompatActivity {
     private Button BUTTONLOGIN;
+    private Button BUTTONSIGNUP;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_may);
         BUTTONLOGIN=findViewById(R.id.BUTTONLOGIN);
         BUTTONLOGIN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Opening Login Page", Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(MainActivity.this, MainActivity2_1.class);
+                Toast.makeText(MainActivity_may.this, "Opening Login Page", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(MainActivity_may.this, MainActivity2_1_may.class);
+                startActivity(intent);
+            }
+        });
+        BUTTONSIGNUP=findViewById(R.id.BUTTONSIGNUP);
+        BUTTONSIGNUP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity_may.this, "Opening Signup Page", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity_may.this , MainActivity2_may.class);
                 startActivity(intent);
             }
         });
@@ -34,9 +44,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-    public void openActivity(View v){
+    /*public void openActivity(View v){
         Toast.makeText(this, "Opening Signup Page", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, MainActivity2_may.class);
         startActivity(intent);
-    }
+        finish();
+    }*/
 }

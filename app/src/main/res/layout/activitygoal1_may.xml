@@ -9,7 +9,7 @@ android:background="@drawable/purplenew_background"
 android:nestedScrollingEnabled="true"
 android:overScrollMode="ifContentScrolls"
 android:visibility="visible"
-tools:context=".MainGoal1"
+tools:context=".MainGoal1_may"
 tools:visibility="visible">
 
 <ImageView
@@ -104,10 +104,11 @@ tools:visibility="visible">
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/whitenew_background"
                     android:ems="10"
+                    android:fontFamily="@font/bellota_text_bold"
                     android:paddingStart="16dp"
                     android:text="\nGOAL:\nSave a specific amount of your income (e.g., 10%-20%).
 
-\n\nRecommendation:\nAutomate transfers to a\nsavings account after every\npaycheck."
+\n\nRECOMMENDATION:\nAutomate transfers to a\nsavings account after every\npaycheck."
                     android:textColor="#000000"
                     android:textSize="16dp" />
 
@@ -130,10 +131,11 @@ tools:visibility="visible">
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/whitenew_background"
                     android:ems="10"
+                    android:fontFamily="@font/bellota_text_bold"
                     android:paddingStart="16dp"
-                    android:text="\nGoal:\nDefine spending limits in categories like groceries, entertainment, and transportation.
+                    android:text="\nGOAL:\nDefine spending limits in categories like groceries, entertainment, and transportation.
 
-\n\nRecommendation:\nAllocate a fixed percentage of income to each category and adjust based on actual spending.
+\n\nRECOMMENDATION:\nAllocate a fixed percentage of income to each category and adjust based on actual spending.
 "
                     android:textColor="#000000"
                     android:textColorHint="#000000"
@@ -158,10 +160,11 @@ tools:visibility="visible">
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/whitenew_background"
                     android:ems="10"
+                    android:fontFamily="@font/bellota_text_bold"
                     android:paddingStart="16dp"
-                    android:text="\nGoal:\nBuild an emergency fund with\nat least 3-6 months' worth of living expenses.
+                    android:text="\nGOAL:\nBuild an emergency fund with\nat least 3-6 months' worth of living expenses.
 
-\n\nRecommendation:\nSet aside a fixed amount monthly until the goal is reached.
+\n\nRECOMMENDATION:\nSet aside a fixed amount monthly until the goal is reached.
 "
                     android:textColor="#000000"
                     android:textColorHint="#000000"
@@ -186,10 +189,11 @@ tools:visibility="visible">
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/whitenew_background"
                     android:ems="10"
+                    android:fontFamily="@font/bellota_text_bold"
                     android:paddingStart="16dp"
-                    android:text="\nGoal:\nBuild an emergency fund with\nat least 3-6 months' worth of living expenses.
+                    android:text="\nGOAL:\nBuild an emergency fund with\nat least 3-6 months' worth of living expenses.
 
-\n\nRecommendation:\nSet aside a fixed amount monthly until the goal is reached.
+\n\nRECOMMENDATION:\nSet aside a fixed amount monthly until the goal is reached.
 "
                     android:textColor="#000000"
                     android:textColorHint="#000000"
@@ -214,10 +218,11 @@ tools:visibility="visible">
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/whitenew_background"
                     android:ems="10"
+                    android:fontFamily="@font/bellota_text_bold"
                     android:paddingStart="16dp"
-                    android:text="\nGoal:\nRaise your credit score by a certain number of points within a set period.
+                    android:text="\nGOAL:\nRaise your credit score by a certain number of points within a set period.
 
-\n\nRecommendation:\nMake timely payments, reduce credit card usage, and monitor your score regularly.
+\n\nRECOMMENDATION:\nMake timely payments, reduce credit card usage, and monitor your score regularly.
 "
                     android:textColor="#000000"
                     android:textColorHint="#000000"

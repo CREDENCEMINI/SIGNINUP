@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="openActivity"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity_may">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,10 +19,11 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="394dp"
-            android:layout_height="97dp"
-            android:layout_marginStart="75dp"
+            android:layout_width="388dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="120dp"
             android:background="#1A0123"
+            android:fontFamily="@font/actor"
             android:text="  Welcome to \n  CREDENCE"
             android:textColor="#F6E0E8"
             android:textSize="30sp"
@@ -80,7 +81,7 @@
             app:srcCompat="@drawable/bottom_arc" />
 
         <Button
-            android:id="@+id/BUTTON1"
+            android:id="@+id/BUTTONSIGNUP"
             style="@android:style/Widget.Button"
             android:layout_width="0dp"
             android:layout_height="55dp"

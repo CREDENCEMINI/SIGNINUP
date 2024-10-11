@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,35 +15,7 @@
         android:theme="@style/Theme.CREDENCE"
         tools:targetApi="31">
         <activity
-            android:name=".MainDisplay"
-            android:label="DISPLAY Activity"
-            android:parentActivityName=".MainGoal1" />
-        <activity
-            android:name=".MainGoal1"
-            android:label="GOAL Activity"
-            android:parentActivityName=".MainActivity3_1" />
-        <activity
-            android:name=".MainActivity3"
-            android:label="Third Activity"
-            android:parentActivityName=".MainActivity2" />
-        <activity
-            android:name=".MainActivity3_1"
-            android:label="Third_1 Activity"
-            android:parentActivityName=".MainActivity2_1" />
-        <activity
-            android:name=".MainActivity2_1"
-
-            android:label="Second_1 Activity"
-            android:parentActivityName=".MainActivity"
-
-            />
-
-        <activity
-            android:name=".MainActivity2"
-            android:label="Second Activity"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenActivity_may_ch"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,6 +23,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ForgotPasswordActivity_may"
+            android:label="FORGOT"
+            android:parentActivityName=".MainActivity2_1_may"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".MainActivity_may_val"
+            android:label="PROFILE"
+            android:parentActivityName=".MainGoal1_may" />
+        <activity
+            android:name=".MainDisplay"
+            android:label="DISPLAY Activity" />
+        <activity
+            android:name=".MainGoal1_may"
+            android:label="GOAL Activity"
+            android:parentActivityName=".MainActivity3_1_may" />
+        <activity
+            android:name=".MainActivity3_may"
+            android:label="Third Activity"
+            android:parentActivityName=".MainActivity2_may" />
+        <activity
+            android:name=".MainActivity3_1_may"
+            android:label="Third_1 Activity"
+            android:parentActivityName=".MainActivity2_1_may" />
+        <activity
+            android:name=".MainActivity2_1_may"
+            android:label="Second_1 Activity"
+            android:parentActivityName=".MainActivity_may" />
+        <activity
+            android:name=".MainActivity2_may"
+            android:label="Second Activity"
+            android:parentActivityName=".MainActivity_may" />
+        <activity
+            android:name=".MainActivity_may"
+            android:exported="false">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

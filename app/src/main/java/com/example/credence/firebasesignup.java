@@ -3,7 +3,6 @@ package com.example.credence;
 import android.os.Bundle;
 
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,7 +28,7 @@ public class firebasesignup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2); // Ensure this matches your XML layout file name
+        setContentView(R.layout.activity_main2_may); // Ensure this matches your XML layout file name
 
         // Initialize Firebase Database
         databaseReference = FirebaseDatabase.getInstance().getReference("Users"); // Adjust "Users" to your node name

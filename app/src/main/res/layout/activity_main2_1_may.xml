@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/purplenew_background"
-    tools:context=".MainActivity2_1">
+    tools:context=".MainActivity2_1_may">
 
     <ImageView
         android:id="@+id/imageView9"
@@ -84,16 +84,17 @@
                         <TextView
                             android:id="@+id/warn1"
                             android:layout_width="match_parent"
-                            android:layout_height="61dp"
-                            android:layout_marginStart="32dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="20dp"
                             android:layout_marginTop="32dp"
-                            android:layout_marginEnd="32dp"
-                            android:layout_marginBottom="8dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="-10dp"
                             android:background="@drawable/background_button_white"
                             android:ems="10"
-                            android:paddingStart="40dp"
-                            android:text="We couldn't find an account with that email address."
+                            android:paddingStart="15dp"
+                            android:text="\nWe couldn't find an account with that email address."
                             android:textColor="@color/design_default_color_error"
+                            android:textStyle="bold"
                             android:visibility="gone" />
 
                         <TextView
@@ -138,7 +139,6 @@
                             android:layout_height="50dp"
                             android:layout_marginStart="32dp"
                             android:layout_marginEnd="32dp"
-                            android:layout_marginBottom="8dp"
                             android:background="@drawable/whitenew_background"
                             android:ems="10"
                             android:hint="Enter Here"
@@ -153,9 +153,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="21dp"
                             android:layout_marginStart="32dp"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="20dp"
                             android:layout_marginEnd="32dp"
-                            android:layout_marginBottom="1dp"
+                            android:layout_marginBottom="20dp"
                             android:background="@drawable/whitenew_background"
                             android:backgroundTint="#9D1CB3"
                             android:text="OR"
@@ -166,10 +166,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="16dp"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            android:visibility="gone">
 
                             <Button
-                                android:id="@+id/button4"
+                                android:id="@+id/googleBtn"
                                 style="@android:style/Widget.Button"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -191,11 +192,9 @@
                         </LinearLayout>
 
                         <Button
-                            android:id="@+id/textView8"
+                            android:id="@+id/BForgot"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="1dp"
-
                             android:background="@android:drawable/divider_horizontal_dim_dark"
                             android:text="Forgot Password?"
                             android:textAlignment="center"
@@ -207,9 +206,9 @@
                             android:id="@+id/progress2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="157dp"
+                            android:layout_marginStart="130dp"
                             android:layout_marginEnd="32dp"
-                            android:visibility="gone" />
+                            android:visibility="gone"/>
 
                         <Button
                             android:id="@+id/button3"
@@ -217,9 +216,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="32dp"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="12dp"
                             android:layout_marginEnd="32dp"
-                            android:layout_marginBottom="16dp"
+                            android:layout_marginBottom="12dp"
                             android:background="@drawable/bluenew_background"
                             android:clickable="true"
                             android:shadowColor="#000000"
